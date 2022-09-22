@@ -729,6 +729,10 @@ video {
   background-image: url('/images/pattern-background-mobile.svg');
 }
 
+.bg-\[url\(\'\.\/images\/pattern-background-mobile\.svg\'\)\] {
+  background-image: url('./images/pattern-background-mobile.svg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -963,5 +967,9 @@ video {
 
   .lg\:bg-\[url\(\'\/images\/pattern-background-desktop\.svg\'\)\] {
     background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/images\/pattern-background-desktop\.svg\'\)\] {
+    background-image: url('./images/pattern-background-desktop.svg');
   }
 }
