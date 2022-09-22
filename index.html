@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<title>Order Summary - Frontend Mentor</title>
+	</head>
+	<body
+		class="
+			bg-paleblue
+			flex flex-row
+			min-h-screen
+			justify-center
+			items-center
+			lg:bg-[url('/images/pattern-background-desktop.svg')]
+			bg-[url('/images/pattern-background-mobile.svg')]
+			bg-no-repeat
+			bg-contain
+			bg-top
+		"
+	>
+		<main
+			class="
+				rounded-2xl
+				lg:w-1/3
+				md:w-8/12
+				w-11/12
+				overflow-hidden
+				flex-col flex
+				bg-white
+				shadow-desaturatedblue shadow-2xl
+			"
+		>
+			<figure class="flex-1">
+				<img
+					src="./images/illustration-hero.svg"
+					alt="Music Playing"
+					width="700"
+					class="object-cover"
+				/>
+			</figure>
+			<!--  -->
+			<section class="flex-col flex gap-6 p-10 items-center">
+				<h1 class="text-3xl font-black text-darkblue">Order Summary</h1>
+				<p class="font-redhat text-desaturatedblue px-5 text-center leading-7">
+					You can now listen to millions of songs, audiobooks, and podcasts on
+					any device anywhere you like!
+				</p>
+				<div
+					class="
+						flex flex-row
+						bg-vpaleblue
+						rounded-lg
+						justify-between
+						p-8
+						items-center
+						gap-10
+						w-full
+					"
+				>
+					<img src="./images/icon-music.svg" alt="Music" />
+					<div class="flex-1 flex-col justify-start ml-4 text-left">
+						<h2 class="font-black text-darkblue text-lg">Annual Plan</h2>
+						<span class="text-desaturatedblue text-base"> $59.99/year</span>
+					</div>
+					<a
+						href="#"
+						class="
+							text-brightblue
+							underline
+							hover:text-indigo-600
+							ease-in-out
+							duration-300
+						"
+						>Change</a
+					>
+				</div>
+				<a
+					class="
+						bg-blue-800
+						text-white
+						p-4
+						rounded-xl
+						shadow-4xl shadow-brightblue
+						w-full
+						text-center
+						shadow-lg
+						font-bold
+						hover:bg-indigo-600
+						ease-in-out
+						duration-300
+					"
+					href="#"
+					>Proceed to Payment
+				</a>
+				<a class="text-desaturatedblue font-bold p-4" href="#">Cancel Order</a>
+			</section>
+		</main>
+	</body>
+</html>
